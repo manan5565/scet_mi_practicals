@@ -1,0 +1,11 @@
+
+;Method 1 :-
+
+LXI B,2022H
+MOV A,B
+STA 2000H
+
+MOV A,C
+STA 2001H
+
+hlt

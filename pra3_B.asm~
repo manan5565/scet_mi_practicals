@@ -1,0 +1,13 @@
+
+MVI B,10H
+MVI C,11H
+
+INR B
+INR C
+
+MVI B,0FFH
+MVI C,0FFH
+
+;INX B
+
+hlt
