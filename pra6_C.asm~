@@ -1,0 +1,9 @@
+LXI B,2022H
+MOV A, B
+RAL
+MOV B, A
+MOV A, C
+;RAL
+;MOV C, A
+
+hlt

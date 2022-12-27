@@ -14,11 +14,8 @@ LDA 2001H
 CMP B
 
 JC STOP
-MOV A,B
+;MOV A,B
 
 STOP: STA 2002H
-
-
-
 
 hlt

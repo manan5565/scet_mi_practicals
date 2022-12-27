@@ -1,8 +1,16 @@
+;example1
 MVI A,24H
 STA 2000H
 
-MVI B,20H
+ANI 20H
 
-AND B
+STA 2000H
 
+;example2
+MVI A,01H
+STA 2001H
+
+ANI 10H
+
+STA 2001H
 hlt
